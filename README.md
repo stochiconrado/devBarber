@@ -1,52 +1,37 @@
-# 💼 JobsCalc - Calculadora de Jobs Freelancer
+# 💈 devBarber
 
-Uma aplicação web para estimativa e gerenciamento de custos e valores de projetos freelancer. O objetivo é ajudar o profissional a calcular o valor ideal de um projeto, considerando horas de trabalho, valor da hora e custos fixos.
+Landing Page de uma Barbearia moderna, desenvolvida do zero utilizando **HTML** e **SCSS (Sass)**.
 
-Este projeto foi desenvolvido durante a **Maratona Discover** da **Rocketseat** (edição 05).
+Este projeto foi criado como parte de um treinamento (Sujeito Programador) com o objetivo de praticar conceitos de desenvolvimento Front-end estático, focando em responsividade e design moderno.
 
-## 🛠️ Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
-O projeto utiliza um stack focado em Back-end com renderização de templates:
+O projeto é inteiramente construído com tecnologias básicas da web:
 
-| Categoria | Tecnologia | Uso |
-| :--- | :--- | :--- |
-| **Back-end** | **Node.js** | Ambiente de execução. |
-| **Back-end** | **Express.js** | Framework para o servidor e roteamento. |
-| **Banco de Dados** | **SQLite** | Persistência de dados (jobs, custos e perfil). |
-| **Front-end** | **EJS** (Embedded JS) | Motor de template para renderizar HTML dinâmico. |
+* **HTML5**
+* **CSS3**
+* **SCSS (Sass)** - Utilizado para facilitar a escrita e manutenção do código CSS.
 
-## 🚀 Instalação e Execução
+## ✨ Funcionalidades
 
-### Pré-requisitos
+* Design **responsivo** adaptável a diferentes tamanhos de tela.
+* Estrutura de código limpa e semântica.
+* Utilização de variáveis e aninhamento (Nesting) do SCSS.
 
-Certifique-se de ter o **Node.js** (versão LTS recomendada) e o **npm** (ou yarn) instalados em sua máquina.
+## 🚀 Como Visualizar
 
-### Passos
+Por ser um projeto puramente Front-end e estático, a visualização é muito simples:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/stochiconrado/nlw05-jobscalc.git](https://github.com/stochiconrado/nlw05-jobscalc.git)
+    git clone [https://github.com/stochiconrado/devBarber.git](https://github.com/stochiconrado/devBarber.git)
     ```
-2.  **Acesse o diretório do projeto:**
+2.  **Navegue até a pasta do projeto:**
     ```bash
-    cd nlw05-jobscalc
+    cd devBarber
     ```
-3.  **Instale as dependências:**
-    ```bash
-    npm install
-    # ou yarn install
-    ```
-4.  **Execute o servidor:**
-    O projeto deve criar automaticamente o arquivo do banco de dados (`database.sqlite`) e as tabelas necessárias na primeira execução.
-    ```bash
-    npm start
-    ```
+3.  Abra o arquivo `index.html` diretamente em seu navegador.
 
-O servidor será iniciado e estará acessível em **`http://localhost:3000`**.
+## 📄 Licença
 
-## 💡 Como Contribuir
-
-* Faça um **fork** do projeto.
-* Crie uma nova branch (`git checkout -b feature/nova-funcionalidade`).
-* Faça commit de suas alterações (`git commit -m 'feat: Adiciona nova funcionalidade'`).
-* Abra um **Pull Request**.
+Este projeto está sob a licença [MIT](https://choosealicense.com/licenses/mit/).
